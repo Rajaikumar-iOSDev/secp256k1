@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
  
   s.ios.deployment_target = '8.0'
   
-  s.source_files = 'secp256k1/**/*'
+  s.source_files = ["src/**/*.{h,c}"]
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
