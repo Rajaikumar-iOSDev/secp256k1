@@ -30,9 +30,9 @@ TODO: Add long description of the pod here.
  
   s.ios.deployment_target = '8.0'
   
-  s.source_files = ["src/**/*.{h,c}"]
+  s.source_files = ["include/secp256k1.h","src/**.{h,c}"]
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+   s.public_header_files = 'include/secp256k1.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
